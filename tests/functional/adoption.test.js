@@ -1,3 +1,5 @@
+process.env.NODE_ENV = 'test'; // <-- ESTO LE INFORMA A EXPRESS QUE NO LEVANTE EL PUERTO
+
 const request = require('supertest');
 const app = require('../../src/app');
 
